@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39fd12a34109984586002d8dba86c41, type: 3}
   m_Name: Magnet
   m_EditorClassIdentifier: 
-  MagnetSpeed: 3
+  MagnetSpeed: 6
   MagnetColor: {r: 0, g: 0, b: 0, a: 0}
   MagnetScale: {x: 0, y: 0, z: 0}

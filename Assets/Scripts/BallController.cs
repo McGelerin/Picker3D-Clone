@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
-    void Update()
-    {
-        if (transform.position.y > 0.27f)
-        {
-            transform.position = new Vector3(transform.position.x, 0.27f, transform.position.z);
-        }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Counter"))
+        {
+            StartCoroutine(WaitBallDestroy());
+        }
+    }
+
+    IEnumerator WaitBallDestroy()
+    {
+        yield return new WaitForSeconds(2f);
+        gameObject.GetComponent<SphereCollider>().enabled = false;
+        yield return new WaitForSeconds(1f);
+        Destroy(gameObject);
     }
 }

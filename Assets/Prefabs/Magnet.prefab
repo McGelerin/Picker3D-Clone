@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 997702747749706508}
   - component: {fileID: 8952656839860825579}
-  - component: {fileID: 822664583477834741}
+  - component: {fileID: 4368983488633757487}
   m_Layer: 0
   m_Name: Magnet
   m_TagString: Player
@@ -53,7 +53,7 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 116
   m_CollisionDetection: 2
---- !u!65 &822664583477834741
+--- !u!65 &4368983488633757487
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,8 +64,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0931718, y: 0.4966691, z: 2.7223349}
-  m_Center: {x: 0.003932357, y: 0.023593634, z: 0.86116767}
+  m_Size: {x: 1, y: 1, z: 2}
+  m_Center: {x: 0, y: 0, z: 0.5}
 --- !u!1 &1627217830519543530
 GameObject:
   m_ObjectHideFlags: 0

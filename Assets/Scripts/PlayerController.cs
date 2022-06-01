@@ -7,17 +7,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] MagnetType magnetType;
     [SerializeField] Rigidbody playerRb;
     float _magnetSpeed;
-    SwerveMovement swerveMovement;
+    SwerveMovement _swerveMovement;
     //public Collider Col;
     //public bool Trigger;
     void Start()
     {
   //      Trigger = true;
-        swerveMovement = FindObjectOfType<SwerveMovement>();
+        _swerveMovement = FindObjectOfType<SwerveMovement>();
         _magnetSpeed = magnetType.MagnetSpeed;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         #region MyRegion
         //if (/*Input.GetKey(KeyCode.Space)*/  )
@@ -28,23 +28,21 @@ public class PlayerController : MonoBehaviour
         /*else*/
         //OnTriggerEnter(Col); 
         #endregion
-        if (GameManager.Instance.GameStatusCache == GameStatus.PLAY)
+        if (GameManager.Instance.GameStatusCache == GameStatus.PLAY || GameManager.Instance.GameStatusCache == GameStatus.NEXTLEVEL)
         {
             Moment();
-            swerveMovement.SwerveMove(playerRb);
+            _swerveMovement.SwerveMove(playerRb);
         }
         else if (GameManager.Instance.GameStatusCache == GameStatus.CONTROL)
         {
             playerRb.velocity = new Vector3(0,0,0);
         }
-        
     }
 
     private void Moment()
     {
         playerRb.velocity = new Vector3(playerRb.velocity.x, playerRb.velocity.y, _magnetSpeed);
     }
-
     #region MyRegion
     //   private void OnTriggerEnter(Collider other)
     //   {
@@ -58,5 +56,4 @@ public class PlayerController : MonoBehaviour
     //       }
     //   } 
     #endregion
-
 }

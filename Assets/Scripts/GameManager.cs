@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public PlayerController PlayerController;
+    //public PlayerController PlayerController;
+    
     public static GameManager Instance { get; private set; }
     [HideInInspector] public GameStatus GameStatusCache;
+    [HideInInspector] public int BallCount, CurrentPlatform, CurrentLevel;
+
+    public SaveManager SaveManager;
+    public MovedPlatformConroller MovedPlatformConroller;
+
 
     private void Awake()
     {
@@ -17,10 +23,14 @@ public class GameManager : MonoBehaviour
         else
         {
             Instance = this;
+            BallCount = 0;
+            CurrentPlatform = 0;
             GameStatusCache = GameStatus.NONE;
+            DontDestroyOnLoad(gameObject);
         }
     }
 }
+
 public enum GameStatus
 {
     NONE,

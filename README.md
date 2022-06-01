@@ -1,2 +1,0 @@
-# Picker3D-Clone
- 

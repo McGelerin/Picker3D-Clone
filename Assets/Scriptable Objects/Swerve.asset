@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Swerve
   m_EditorClassIdentifier: 
   SwerveSpeed: 1
-  MaxSwerveAmount: 15
+  MaxSwerveAmount: 10
   MaxMove_x: 2.8
