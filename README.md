@@ -18,6 +18,8 @@ Projemi yaklaşık 4.5 gün içinde geliştirdim, SOLID prensiplerine özellikle
 
 ------------
 
+## Oyunumun Videosu
+
 [![WatchMe](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/YoutubeLinkPic.png "WatchMe")](https://youtu.be/XsYK0quHcVs "WatchMe")
 
 ------------
