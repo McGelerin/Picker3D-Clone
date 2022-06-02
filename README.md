@@ -18,7 +18,9 @@ Projemi yaklaşık 4.5 gün içinde geliştirdim, SOLID prensiplerine özellikle
 
 ------------
 <p align="center">
-  ![](https://youtu.be/XsYK0quHcVs)
+  [![Game Video]
+(https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS1.png)]
+(https://youtu.be/XsYK0quHcVs "GameVideo")
 </p>
 
 
@@ -27,7 +29,8 @@ Projemi yaklaşık 4.5 gün içinde geliştirdim, SOLID prensiplerine özellikle
 ------------
 
 ## Oyunumun Özellikleri
-#### Unity
+
+### Unity
 Oyunumu Unity 2021.1.1.17f1 sürümü kullanarak yazdım.
 ### Scriptable Objects
 Oyunda ayarlanması gereken özelliklerin çoğunu scriptable obje kullanarak yazdım. Özellikle levelleri kolay bir şekilde oluşturabilirsiniz. Oluşturduğunuz scriptable objenizi level kontrollera atarak yeni levelinizi oyunda görebilirsiniz.
