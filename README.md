@@ -18,7 +18,7 @@ Projemi yaklaşık 4.5 gün içinde geliştirdim, SOLID prensiplerine özellikle
 
 ------------
 <p align="center">
-  [Youtube Video Link](https://youtu.be/XsYK0quHcVs)
+  [https://youtu.be/XsYK0quHcVs](https://youtu.be/XsYK0quHcVs)
 </p>
 
 
@@ -33,8 +33,9 @@ Oyunumu Unity 2021.1.1.17f1 sürümü kullanarak yazdım.
 Oyunda ayarlanması gereken özelliklerin çoğunu scriptable obje kullanarak yazdım. Özellikle levelleri kolay bir şekilde oluşturabilirsiniz. Oluşturduğunuz scriptable objenizi level kontrollera atarak yeni levelinizi oyunda görebilirsiniz.
 ![](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS4_ScriptableObjects2.png)
 ![](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS4_ScriptableObjects.png)
-![](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS4_LevelScriptableObjectsInspector.png)
 ![](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS4_LevelControllerInspector.png)
+![](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS4_LevelScriptableObjectsInspector.png)
+
 
 ------------
 
