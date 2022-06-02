@@ -18,10 +18,9 @@ Projemi yaklaşık 4.5 gün içinde geliştirdim, SOLID prensiplerine özellikle
 
 ------------
 <p align="center">
-  ![Youtube Video Link](https://youtu.be/XsYK0quHcVs)
+  [Youtube Video Link](https://youtu.be/XsYK0quHcVs)
 </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XsYK0quHcVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
