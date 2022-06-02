@@ -18,8 +18,12 @@ Projemi yaklaşık 4.5 gün içinde geliştirdim, SOLID prensiplerine özellikle
 
 ------------
 <p align="center">
-  [![Watch the video](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS1.png)](https://youtu.be/XsYK0quHcVs)
+  ![Youtube Video Link](https://youtu.be/XsYK0quHcVs)
 </p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XsYK0quHcVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 ------------
 
@@ -36,9 +40,15 @@ Oyunda ayarlanması gereken özelliklerin çoğunu scriptable obje kullanarak ya
 ------------
 
 Ek olarak magnet scriptable objesinde hız, renk, boyut bulunmaktadır. Fakat şimdilik sadece hız kullanılmatadır. İleriki zamanlarda diğer değişlenleride kullanacağım.
+
+------------
+
 ![](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS4_MagnetInspector.png)
 #### Swerve Mechanic
 Oyunu mouse ile oynanacak şekilde ve herhangi bir lane olmayacak şekilde tasarladım. Gerçek oyun sewerve mekaniğe sahip olduğu için bende oyunumde swerve mekanik yazdım. Swerve mekaniğimin özelliklerini oluşturduğum scriptable objeden ayarlayabilirsiniz.
+
+------------
+
 ![](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS4_SwerveScriptableObjects.png)
 
 #### Save System
