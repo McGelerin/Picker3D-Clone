@@ -17,14 +17,10 @@ Projemi yaklaşık 4.5 gün içinde geliştirdim, SOLID prensiplerine özellikle
 ![](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS3.png)
 
 ------------
+
 <p align="center">
-  [![Game Video]
-(https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS1.png)]
-(https://youtu.be/XsYK0quHcVs "GameVideo")
+[![WatchMe](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/YoutubeLinkPic.png "WatchMe")](https://youtu.be/XsYK0quHcVs "WatchMe")
 </p>
-
-
-
 
 ------------
 
