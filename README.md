@@ -1,4 +1,4 @@
-#Picker 3D Clone
+# Picker 3D Clone
 
 Projemi ziyaret eden herkese merhabalar, size kendimdimden bahsetmek istiyorum. Ben yazılım mühendisi ve oyun geliştiricisiyim. Arkadaşlarım ile şimdiye kadar google play storeda 3 adat bağımsız oyunumuz bulunmakta. Bu projeyi tek başıma geliştirdim ve size projemden bahsetmek istiyorum.
 
@@ -18,7 +18,7 @@ Projemi yaklaşık 4.5 gün içinde geliştirdim, SOLID prensiplerine özellikle
 
 ------------
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XsYK0quHcVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  [![Watch the video](https://raw.githubusercontent.com/McGelerin/Picker3D-Clone/main/Game%20Pic/Picker3D_SS1.png)](https://youtu.be/XsYK0quHcVs)
 </p>
 
 ------------
